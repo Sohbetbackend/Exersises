@@ -122,6 +122,7 @@ nums = queue.Queue()
 nums.put("")
 add = ""
 maze  = createMaze()
+# maze = createMaze2()
 
 while not findEnd(maze, add):
     add = nums.get()
